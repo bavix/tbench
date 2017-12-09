@@ -1,0 +1,9 @@
+{
+    "require": {
+        "bavix/flow": "dev-master",
+        "twig/twig": "^2.4",
+        "smarty/smarty": "^3.1",
+        "fenom/fenom": "^2.11",
+        "bavix/benchmark": "^1.0"
+    }
+}
