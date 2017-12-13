@@ -7,6 +7,7 @@ $native->addFolder('units', __DIR__ . '/view');
 return new \Bavix\Flow\Flow(
     $native,
     [
-        'compile' => compilePath()
+        'compile' => compilePath(),
+        'debug'   => DEBUG
     ]
 );

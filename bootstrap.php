@@ -7,12 +7,17 @@ function compilePath()
     return __DIR__ . '/compile';
 }
 
+function dataPath(string $name)
+{
+    return __DIR__ . '/data/' . $name . '.php';
+}
+
 function initPath(string $template)
 {
     return __DIR__ . '/tests/' . $template . '/init.php';
 }
 
-function unitPath(string $template, string $unit)
+function renderPath(string $unit)
 {
-    return __DIR__ . '/tests/' . $template . '/units/' . $unit . '.php';
+    return __DIR__ . '/tests/' . $unit . '/render.php';
 }

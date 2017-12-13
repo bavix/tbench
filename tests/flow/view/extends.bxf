@@ -1,5 +1,0 @@
-{% if iterator++ < limit %}
-    {% extends 'units:extends' %}
-{% endif %}
-
-{% section unit %}{{ iterator }}{% endsection %}

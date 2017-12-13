@@ -1,8 +1,8 @@
 <?php
 
-//'extends' successfully: flow, fatal: twig, fenom, smarty
+define('DEBUG', true);
 
 return [
-    'templates' => ['flow', 'smarty', 'twig', 'fenom'],
-    'units' => ['print']
+    'templates' => ['smarty', 'twig', 'fenom', 'flow'],
+    'units'     => ['print']
 ];

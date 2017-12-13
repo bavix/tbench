@@ -2,5 +2,9 @@
 
 return Fenom::factory(
     __DIR__ . '/view',
-    compilePath()
+    compilePath(),
+    [
+        'auto_escape' => true,
+        'force_compile' => DEBUG
+    ]
 );

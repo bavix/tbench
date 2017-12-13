@@ -1,1 +1,5 @@
-{{ message }}
+{% extends 'units:layout' %}
+
+{% block hello %}
+    <h1 class="{{hello}}">{{ message }}</h1>
+{% endblock %}

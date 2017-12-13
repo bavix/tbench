@@ -1,1 +1,5 @@
-{{ message }}
+{% extends 'layout.twig' %}
+
+{% block hello %}
+    <h1 class="{{hello}}">{{ message }}</h1>
+{% endblock %}
