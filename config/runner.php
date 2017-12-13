@@ -1,6 +1,6 @@
 <?php
 
-define('DEBUG', true);
+define('DEBUG', false);
 
 return [
     'templates' => ['smarty', 'twig', 'fenom', 'flow'],
