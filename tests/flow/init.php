@@ -1,12 +1,11 @@
 <?php
 
-$native = new \Bavix\Flow\Native();
-
-$native->addFolder('units', __DIR__ . '/view');
-
 return new \Bavix\Flow\Flow(
-    $native,
+    null,
     [
+        'folders' => [
+            'units' => __DIR__ . '/view'
+        ],
         'compile' => compilePath(),
         'debug'   => DEBUG
     ]
